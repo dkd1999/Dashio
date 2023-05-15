@@ -1,0 +1,29 @@
+<mat-toolbar>
+    <button  (click)="menubtnclick()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </mat-icon>
+    </button>
+    <span id="dash">Dashio</span>
+    <span class="example-spacer"></span>
+    <div class="flex-container">
+        <ul>
+            <li>
+                 <!-- icon 1 -->
+                <button *ngIf="(adm_name | keyvalue)?.length" (click)="feedback()" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                  <mat-icon>help_outline</mat-icon>
+                </button>
+            </li>
+            <li>
+                 <!-- icon 2 -->
+                <button *ngIf="(adm_name | keyvalue)?.length" (click)="admin()"  mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon>admin_panel_settings</mat-icon>
+                  </button>
+            </li>
+
+            
+        </ul>
+    </div>
+</mat-toolbar>

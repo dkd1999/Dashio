@@ -1,0 +1,101 @@
+.profile{
+    text-align: center;
+}
+.profile h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h2{
+    font-size:24px;
+    padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.pages a{
+    text-decoration: none;
+    color: #c4c4c4;
+    height: 40px;
+    padding: 40px 0px 40px 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    
+}
+.pages a:hover{
+    background-color: rgba(255, 255, 255, 0.078);
+    color: aliceblue;
+}
+mat-icon{
+    vertical-align: middle; /* to align vertically*/
+    margin-right: 10px;
+}
+#prof-img{
+    border-radius: 50%;
+    width: 200px;
+}
+#name{
+    font-size: 28px;
+    padding-top: 20px;
+}
+#email{
+    font-size: 18px;
+    padding: 30px 0px;
+}
+
+@media only screen and (max-width:500px){
+
+    .profile{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pages{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .profile h3 {
+        font-weight: 600;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    #name{
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    #email{
+        font-size: 18px;
+        padding: 30px 0px;
+    }
+    h2{
+        font-size: 18px;
+        padding-left: 2px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .pages a{
+        text-decoration: none;
+        height: 40px;
+        padding: 20px 0px 20px 25px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 16px;
+        
+    }
+    #prof-img{
+        padding: 10px;
+        width: 120px;
+    }
+
+}

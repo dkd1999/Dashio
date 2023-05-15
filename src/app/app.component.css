@@ -1,0 +1,38 @@
+mat-drawer-container{
+    width:auto;
+    height: 96vh;
+}
+mat-drawer {
+    background-color:#0C1446;
+    width: 250px;
+    padding-right: 8px;
+}
+
+mat-drawer-content{
+    padding:  0px;
+    background-image: url(./dashio-background.jpg);
+    /* background-image: url(https://wallpaper-house.com/data/out/10/wallpaper2you_413399.jpg); */
+    width: auto;
+    background-size: cover;
+}
+footer{
+    background-color:blue;
+    height: 0px;;
+    padding: 0px;
+}
+app-footer{
+    background-color: aqua;
+}
+
+@media only screen and (max-width:600px){
+    mat-drawer{
+        width: 200px;
+    }
+    mat-drawer-content{
+        overflow-x: hidden;
+    }
+    mat-drawer-container{
+        width:auto;
+        height: 96vh;
+    }
+}

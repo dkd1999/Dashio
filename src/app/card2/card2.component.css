@@ -1,0 +1,106 @@
+.main{
+    background-color:#dff6ffe3;
+    border-radius: 20px;
+    padding: 4px 14px;
+    width: 400px;
+    height: 630px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #000;
+    font-size: 16px;
+    --webkit-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.34);}
+.main h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+.content{
+  height: 200px;
+}
+
+table{
+  width: 100%;
+  padding: 3px;
+  font-size: 24px;
+}
+table td{
+  padding: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+table th{
+  padding-bottom: 14px;
+}
+.circle-wrap {
+    margin:  auto;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+  
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #DBDFFD;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  
+  /* color animation */
+  
+  /* 3rd progress bar */
+  .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #2146C7;
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+
+  @media only screen and (max-width:600px){
+    .main{
+      width: 98vw;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 0px;
+
+    }
+}
+  
+  

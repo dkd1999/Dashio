@@ -1,0 +1,29 @@
+.flex-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 12px;
+}
+.flex-container{
+    width: 100%;
+}
+mat-toolbar{
+    height: 4vh;
+    background-color: #193f72;
+}
+#dash{
+    padding-left: 10px;
+}
+/* button{
+    border: none 0px;
+    background-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+} */
+
+@media only screen and (max-width:600px){
+    mat-toolbar{
+        height:4vh;
+        background-color: #193f72;
+    }
+}

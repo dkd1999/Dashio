@@ -1,0 +1,101 @@
+.main{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/042/184/736/large/jason-sawyer-windows-11-rip-off-1200w0sq0aasx-fdhjiaksaxonbneduioqa0052.jpg?1633804764);
+    background-size: cover;
+  
+}
+
+.main1{
+    width: 500px;
+    padding: 30px;
+    background-color:rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main1 h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.image-div{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#prof-img{
+    border-radius: 50%;
+}
+#welcome{
+    font-size: 30px;
+    line-height: 42px;
+    margin: 40px;
+    background-color: rgba(0, 53, 199, 0.292);
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+#log{
+   margin-top: 100px; 
+}
+
+#link:hover{
+    background-color:lightblue;
+    padding: 8px;
+    border-radius: 3px;
+}
+#link{
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(173, 216, 230, 0.658);
+    padding: 8px;
+    border-radius: 12px;
+    transition: all 0.3s;
+    font-size: 20px; 
+}
+
+@media only screen and (max-width:600px) {
+    .main{
+        background-position: right;
+
+    }
+    .main1{
+        width: 90vw;
+        padding: 30px;
+        background-color:rgba(255, 255, 255, 0.12);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #welcome{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    #link{
+        font-size: 16px;
+    }
+    .image-div{
+       width: 280px;
+       height: 280px;
+    }
+    #prof-img{
+        width: 240px;
+    }
+
+}

@@ -1,0 +1,19 @@
+footer{
+background-image: url(https://static.vecteezy.com/system/resources/previews/006/327/095/original/dark-blue-gradient-colors-abstract-blurred-background-for-landing-page-free-vector.jpg);
+background-size: cover;
+font-size: medium;
+text-align: center;
+padding: px;
+color:bisque;
+height: 4vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+    
+@media only screen and (max-width:600px){
+    footer {
+    font-size: 12px;
+    }
+}

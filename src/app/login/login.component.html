@@ -1,0 +1,24 @@
+<div class="main">
+  <div class="main1">
+      <div id="welcome"><p>Welcome to Dashio</p></div>
+      <div id="log">
+          Login in to access dashboard
+      </div>
+      <div>
+          <div id="user" class="input-group flex-nowrap">
+              <input id="user-inp" (change)="getusername($event)" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+  
+            <div id="pass" class="input-group flex-nowrap">
+              
+              <input id="pass-inp" (change)="getuserpswd($event)" type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <div [innerHTML]="outputcontent"></div>
+            <div class="buttons">
+              <button (click)="login()" class="btn" type="button" id="button-addon1">Login</button>
+              <button routerLink="register" class="btn" type="button" id="button-addon2">Register</button>
+            </div>
+      </div>
+  </div>
+  
+</div>

@@ -1,0 +1,106 @@
+.main{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/042/184/736/large/jason-sawyer-windows-11-rip-off-1200w0sq0aasx-fdhjiaksaxonbneduioqa0052.jpg?1633804764);
+    background-size: cover;
+  
+}
+
+.main1{
+    width: 570px;
+    padding: 30px;
+    background-color:#43cdbbcb;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#prof-img{
+    height: 400px;
+    border-radius: 20px;
+}
+#txt{
+    border-radius: 20px;
+    border: 0px ;
+    padding: 9px;
+    background-color: rgba(245, 245, 220, 0.61);
+    font-size: 25px;
+    text-align: center;
+}
+#log{
+    margin-top: 100px; 
+ }
+ 
+ #link:hover{
+     background-color:lightblue;
+     padding: 8px;
+     border-radius: 3px;
+ }
+ #link{
+     text-decoration: none;
+     color: #000;
+     background-color: rgba(173, 216, 230, 0.658);
+     padding: 8px;
+     border-radius: 12px;
+     transition: all 0.3s;
+     font-size: 20px; 
+ }
+ #buttn{
+    text-align: center;
+    margin-top: 10px;
+ }
+ #buttn button{
+    background-color: #eebf85;
+    border: 0px solid;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+ }
+
+ #buttn button:hover{
+    background-color: #ffdaa3;
+    border: 0px solid;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 4px;
+ }
+
+ @media only screen and (max-width:600px){
+    .main{
+        height: 96vh;
+        background-position: right;
+    }
+    .main1{
+        width: 90vw;
+        padding: 30px;
+        background-color:#43cdbbcb;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #prof-img{
+        height: 240px;
+    }
+    #user{
+        width: 80vw;
+       
+    }
+    #user textarea{
+        width: 80vw;
+        font-size: 18px;
+    }
+    #link{
+        font-size: 16px;
+    }
+   }

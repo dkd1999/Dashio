@@ -1,0 +1,41 @@
+.table-main{
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+    
+    background-color: rgb(0, 255, 202,0.7); 
+    -webkit-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.34);
+-moz-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.34);
+box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.34);
+
+}
+mat-table{
+   background-color: aliceblue; 
+    
+}
+.mat-elevation-z8{
+    background-color: rgba(112, 112, 112, 0);
+    border-radius: 20px;
+}
+
+td{
+    color: #000;
+    font-size: 17px;
+}
+th{
+    color: #000;
+    font-size: 20px;
+}
+table{
+    height: 630px;
+}
+@media only screen and (max-width:600px){
+    .table-main{
+        margin-bottom: 20px;
+        width: 98vw;
+        margin-top: 0px;
+
+    }
+}

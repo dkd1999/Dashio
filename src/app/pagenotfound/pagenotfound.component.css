@@ -1,0 +1,31 @@
+.major{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 96vh;
+}
+#img img{
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+#goback a{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+#goback :hover{
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(185, 255, 232);
+    border-radius: 1px;
+}
+@media only screen and (max-width:600px){
+    img{
+        width: 280px;
+    }
+        
+}

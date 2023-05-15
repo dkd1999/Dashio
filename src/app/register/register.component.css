@@ -1,0 +1,102 @@
+.main{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://w.forfun.com/fetch/fa/fa0d84f2ade6c73cb6545cabace36fcf.jpeg);
+  
+}
+
+.main1{
+    width: 500px;
+    padding: 30px;
+    background-color:rgba(180, 180, 180, 0.247);
+    border-radius: 20px;
+}
+#welcome p{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+#log{
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+#user{
+    padding: 5px 0;
+    transition: all 0.3s;
+}
+
+#user:hover{
+    padding: 5px 0;
+    transform: scale(1.05);
+}
+
+#pass{
+    padding: 5px 0;
+    transition: all 0.3s;
+}
+
+#pass:hover{
+    padding: 5px 0;
+    transform: scale(1.05);
+}
+.buttons{
+    text-align: center;
+}
+#button-addon1{
+    margin: 10px 5px;
+    background-color: #0c0089;
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+#button-addon1:hover{
+    transform: scale(1.1);
+    
+}
+
+#button-addon2{
+    margin: 10px 5px;
+    background-color: chartreuse;
+    transition: all 0.3s;
+}
+
+#button-addon2:hover{
+    transform: scale(1.1);
+    
+}
+
+#user-inp{
+    background-color: rgba(255, 255, 255, 0.181);
+    border: 0px ;
+}
+#user-inp:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+    border: 0px ;
+}
+
+#pass-inp{
+    background-color: rgba(255, 255, 255, 0.459);
+    border: 0px ;
+}
+@media only screen and (max-width:600px){
+    footer {
+    font-size: 12px;
+    }
+    .main1{
+        width: 85vw;
+        padding: 30px;
+        background-color:rgba(180, 180, 180, 0.247);
+        border-radius: 20px;
+    }
+    #log p{
+        font-size: 16px;
+    }
+}
